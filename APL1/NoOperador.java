@@ -17,6 +17,8 @@ class NoOperador extends No {
             case '+': return valorEsquerdo + valorDireito;
             case '-': return valorEsquerdo - valorDireito;
             case '*': return valorEsquerdo * valorDireito;
+            case '/': return valorEsquerdo / valorDireito;
+            default: return Float.NaN;
 
         }
     }
